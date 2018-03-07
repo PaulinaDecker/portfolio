@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'ISOCP2';
+  src: url('../fonts/ISOCP2Regular.ttf');
+}
+
+body {
+  margin-bottom:100px;
+  margin-top: 100px;
+}
+
+
+/**
+ * Nav Styles
+ */
+
+ .navbar {
+  position: fixed;
+  z-index: 999;
+  right: 0;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #232523;
+  color: #fff;
+  text-align: center;
+  font-family: ISOCP2;
+  font-weight: 800;
+  font-size: 25px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/**
+ * Footer Styles
+ */
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #232523;
+  color: #fff;
+  text-align: center;
+  font-family: ISOCP2;
+  font-weight: 800;
+  font-size: 25px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
