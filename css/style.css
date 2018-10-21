@@ -8301,3 +8301,6 @@ a > img.fh5co-align-center {
 }
 
 /*# sourceMappingURL=style.css.map */
+#honeypot {
+  display: none; /*makes the field not visible to humans*/
+}
