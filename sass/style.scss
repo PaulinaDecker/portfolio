@@ -8,9 +8,9 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #116b12 !default;
+$brand-primary: #232523 !default;
 $brand-white: #fff;
-$brand-black: #000;
+$brand-black: #232523;
 $brand-darker: #444;
 $brand-gray: #ccc;
 $brand-lighter: #e9e9e9;
@@ -85,7 +85,7 @@ body {
 	font-size: 15px;
 	line-height: 26px;
 	color: $brand-body-color;
-	background: $brand-bg-color;
+	background: #fff;
 }
 a {
 	@include transition(.5s);
@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 			margin-top: 3px;
 			float: right;
 			margin-left: 10px;
-			color: red;
+			color: #232523;
 		}
 		&:hover, &:focus, &:active {
 			outline: none;
@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
 		width: 100%;
 		text-transform: uppercase;
 		color: $brand-black;
-		letter-spacing: 1px;
+		//letter-spacing: 1px;
 		font-weight: bold;
 		padding: 0;
 		margin: 40px 0 0 0;	
@@ -347,7 +347,7 @@ h1, h2, h3, h4, h5, h6 {
 		width: 200px;
 		margin: 0 auto;
 		text-transform: uppercase;
-		letter-spacing: 2px;
+		// letter-spacing: 2px;
 		font-size: 20px;
 		font-family: $font-monsterrat;
 		color: $brand-black;
